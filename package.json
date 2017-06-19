@@ -1,6 +1,6 @@
 {
-  "name": "generator-react-wnb",
-  "version": "1.0.0",
+  "name": "generator-reactwebapp",
+  "version": "1.0.3",
   "description": "基于react—�+webpack的项目快速生成工具",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "homepage": "https://gitHub.com/wangningbo93/generator-react.git",
   "keywords": [
+    "yeoman-generator",
     "react",
     "webpack",
     "es6"
