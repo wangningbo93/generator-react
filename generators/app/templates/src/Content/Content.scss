@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+// 重置样式
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: 0;
+}
+
+*,blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+em,i {
+    font-style: normal;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+button,h1,h2,h3,h4,h5,h6,input,select {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,body {
+    color: #666;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    font-family: Helvetica,STHeiti STXihei,Microsoft JhengHei,Microsoft YaHei,Arial;
+    line-height: 1.5;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%!important;
+    text-size-adjust: 100%!important;
+    background: #f5f5f5;
+}
+
+input[type=text],textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:1px solid #ccc;
+}
+
+//页面的样式
+li{
+    position:relative;
+    border-bottom: 1px solid #ededed;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    .toggle{
+        height:40px;
+        text-align: center;
+        width: 40px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        border: none
+    }
+    .destroy{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        bottom: 0;
+        width: 40px;
+        height: 40px;
+        margin: auto 0;
+        font-size: 30px;
+        color: #cc9a9a;
+        margin-bottom: 11px;
+        transition: color 0.2s ease-out;
+        background:none;
+        border:none;
+        cursor:pointer;
+    }
+    label{
+        white-space: pre-line;
+        word-break: break-all;
+        padding: 15px 60px 15px 15px;
+        margin-left: 45px;
+        display: block;
+        line-height: 1.2;
+        transition: color 0.4s;
+    }
+}
